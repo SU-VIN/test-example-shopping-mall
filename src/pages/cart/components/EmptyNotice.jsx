@@ -1,7 +1,8 @@
+/* eslint-disable import/order */
 import { Typography, Box, Link as MuiLink } from '@mui/material';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-
+//react router dom에 의존성이 존재함
 import { pageRoutes } from '@/apiRoutes';
 
 const EmptyNotice = () => {
